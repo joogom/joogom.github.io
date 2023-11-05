@@ -363,7 +363,7 @@
     margin-top: 0.9rem;
     margin-bottom: 0.5rem;
   }
-  body hr {
+  /* body hr {
     border: 0.5px dashed #8c8c8c;
     opacity: 0.5;
     margin: 0;
@@ -396,7 +396,7 @@
   body acronym,
   body abbr {
     border-bottom: 1px dotted;
-  }
+  } */
   body ul,
   body ol,
   body dl {
@@ -415,7 +415,7 @@
   body dt {
     font-weight: bold;
   }
-  body table {
+  /* body table {
     width: 100%;
     border-collapse: collapse;
     text-align: left;
@@ -433,7 +433,7 @@
   body td {
     padding: 0 8px;
     border-bottom: none;
-  }
+  } */
   @font-face {
     font-style: normal;
     font-family: "Meslo LG";
@@ -486,7 +486,7 @@
     -ms-hyphens: manual;
     -webkit-hyphens: manual;
   }
-  .content a {
+  .content.resource a {
     color: #383838;
     text-decoration: none;
     background-image: linear-gradient(transparent, transparent 5px, #383838 5px, #383838);
@@ -494,13 +494,13 @@
     background-size: 100% 6px;
     background-repeat: repeat-x;
   }
-  .content a:hover {
+  .content.resource a:hover {
     background-image: linear-gradient(transparent, transparent 4px, #d480aa 4px, #d480aa);
   }
-  .content a.icon {
+  .content.resource a.icon {
     background: none;
   }
-  .content a.icon:hover {
+  .content.resource a.icon:hover {
     color: #d480aa;
   }
   .content h1 a,

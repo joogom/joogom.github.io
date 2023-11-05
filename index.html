@@ -19,10 +19,12 @@
     <title>joogomsnap - 스케쥴</title>
     <!-- styles -->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/calendar.css">
     <!-- 풀 캘린더 -->
-    <script src='https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.1.9/index.global.min.js'></script>
-    <script src='https://cdn.jsdelivr.net/npm/@fullcalendar/web-component@6.1.9/index.global.min.js'></script>
-    <script src='https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@6.1.9/index.global.min.js'></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link href='https://cdn.jsdelivr.net/npm/fullcalendar@5.8.0/main.min.css' rel='stylesheet' />
+  <script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.8.0/main.min.js'></script>
+  <script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.8.0/locales-all.min.js'></script>
 </head>
 
 <body class="max-width mx-auto px3 ltr">
@@ -47,21 +49,14 @@
         </header>
         <section id="content">
             <span class="h1"><a href="./index.html">스케쥴</a></span>
-            <iframe id="schedule" src="https://calendar.google.com/calendar/embed?src=af4746cc0d15f2cb3834a37674e16e86c613798577a5e6be22366f8e18307bfb%40group.calendar.google.com&ctz=Asia%2FSeoul" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-            <!-- <iframe id="schedule" src="http://naver.me/xRP2tEBM" width="800" height="600" frameborder="0"></iframe> -->
-            <div id="calendar"></div>
-            <!-- <full-calendar shadow options='{
-                "headerToolbar": {
-                    "left": "prev,next today",
-                    "center": "title",
-                    "right": "dayGridMonth,dayGridWeek,dayGridDay"
-                }
-            }' /> -->
+            <div id="calendar-container">
+              <div id="calendar"></div>
+            </div>
             <p>네이버 쓸만한데. https 에서는 http 블럭이라 못 쓴다..</p>
-            <p>어쩔 수 없이. 구글 캘린더 쌩으로 일단 쓴다.</p>
-            <p>추후 아래 링크 활용해서 바꿀 예정</p>
-            <p>https://velog.io/@poooq/FullCalendar-풀캘린더-구글캘린더-db연동하기</p>
-            <p>https://blog.naver.com/iiwvii/222368096146</p>
+            <p>구글 캘린더는 또 무슨 403이 뜬다. 로컬에서만 정상작동..</p>
+            <p>FullCalendar 는 또 줄 저거 왜 저래.. 마음에 안 듬..</p>
+            <!-- <p>https://velog.io/@poooq/FullCalendar-풀캘린더-구글캘린더-db연동하기</p>
+            <p>https://blog.naver.com/iiwvii/222368096146</p> -->
         </section>
         <footer id="footer">
             <div class="footer-left">
@@ -86,7 +81,7 @@
     <link rel="stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
         crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'">
     <!-- js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script>
     <script src="./js/main.js"></script>
+    <script src="./js/calendar.js"></script>
 </body>
 </html>

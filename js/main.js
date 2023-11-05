@@ -117,27 +117,27 @@ if (!!$.prototype.justifiedGallery) {
 
 
 
-    $(document).ready(function () {
-        // Calculate the desired width based on the parent container's width
-        var desiredWidth = $("#schedule").parent().width();
-        var desiredHeight = (600*desiredWidth)/800;
+    // $(document).ready(function () {
+    //     // Calculate the desired width based on the parent container's width
+    //     var desiredWidth = $("#schedule").parent().width();
+    //     var desiredHeight = (600*desiredWidth)/800;
 
-        // if (desiredWidth <= 800)
-        // {
-          $("#schedule").attr("width", desiredWidth);
-          $("#schedule").attr("height", desiredHeight > 300 ? desiredHeight : 300);
-        // }
-    });
-    // Handle resizing when the window is resized (optional)
-    $(window).on('resize', function () {
-        var desiredWidth = $("#schedule").parent().width();
-        var desiredHeight = (600*desiredWidth)/800;
-        // if (desiredWidth <= 800)
-        // {
-          $("#schedule").attr("width", desiredWidth);
-          $("#schedule").attr("height", desiredHeight > 300 ? desiredHeight : 300);
-        // }
-    });
+    //     // if (desiredWidth <= 800)
+    //     // {
+    //       $("#schedule").attr("width", desiredWidth);
+    //       $("#schedule").attr("height", desiredHeight > 300 ? desiredHeight : 300);
+    //     // }
+    // });
+    // // Handle resizing when the window is resized (optional)
+    // $(window).on('resize', function () {
+    //     var desiredWidth = $("#schedule").parent().width();
+    //     var desiredHeight = (600*desiredWidth)/800;
+    //     // if (desiredWidth <= 800)
+    //     // {
+    //       $("#schedule").attr("width", desiredWidth);
+    //       $("#schedule").attr("height", desiredHeight > 300 ? desiredHeight : 300);
+    //     // }
+    // });
 
 
     
