@@ -19,6 +19,10 @@
     <title>joogomsnap - 스케쥴</title>
     <!-- styles -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- 풀 캘린더 -->
+    <script src='https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.1.9/index.global.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/@fullcalendar/web-component@6.1.9/index.global.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@6.1.9/index.global.min.js'></script>
 </head>
 
 <body class="max-width mx-auto px3 ltr">
@@ -43,8 +47,21 @@
         </header>
         <section id="content">
             <span class="h1"><a href="./index.html">스케쥴</a></span>
-            <!-- <iframe src="https://calendar.google.com/calendar/embed?src=af4746cc0d15f2cb3834a37674e16e86c613798577a5e6be22366f8e18307bfb%40group.calendar.google.com&ctz=Asia%2FSeoul" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe> -->
-            <iframe id="schedule" src="http://naver.me/xRP2tEBM" width="800" height="600" frameborder="0"></iframe>
+            <iframe id="schedule" src="https://calendar.google.com/calendar/embed?src=af4746cc0d15f2cb3834a37674e16e86c613798577a5e6be22366f8e18307bfb%40group.calendar.google.com&ctz=Asia%2FSeoul" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            <!-- <iframe id="schedule" src="http://naver.me/xRP2tEBM" width="800" height="600" frameborder="0"></iframe> -->
+            <div id="calendar"></div>
+            <!-- <full-calendar shadow options='{
+                "headerToolbar": {
+                    "left": "prev,next today",
+                    "center": "title",
+                    "right": "dayGridMonth,dayGridWeek,dayGridDay"
+                }
+            }' /> -->
+            <p>네이버 쓸만한데. https 에서는 http 블럭이라 못 쓴다..</p>
+            <p>어쩔 수 없이. 구글 캘린더 쌩으로 일단 쓴다.</p>
+            <p>추후 아래 링크 활용해서 바꿀 예정</p>
+            <p>https://velog.io/@poooq/FullCalendar-풀캘린더-구글캘린더-db연동하기</p>
+            <p>https://blog.naver.com/iiwvii/222368096146</p>
         </section>
         <footer id="footer">
             <div class="footer-left">

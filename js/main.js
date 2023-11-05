@@ -138,4 +138,25 @@ if (!!$.prototype.justifiedGallery) {
           $("#schedule").attr("height", desiredHeight > 300 ? desiredHeight : 300);
         // }
     });
+
+
+    
+    // var calendarEl = document.getElementById('calendar');
+    // console.log("a");
+    // var calendar = new FullCalendar.Calendar(calendarEl, {
+    //   headerToolbar: {
+    //     left: 'prev,next today',
+    //     center: 'title',
+    //     right: 'dayGridMonth,timeGridWeek,timeGridDay,listWeek'
+    //   },
+    //   events:[ // 일정 데이터 추가 , DB의 event를 가져오려면 JSON 형식으로 변환해 events에 넣어주면된다.
+    //     {
+    //       title:'일정',
+    //       start:'2023-11-04',
+    //       end:'2023-11-04'
+    //     }
+    //   ],
+    // });
+    // calendar.render();
+
   });
