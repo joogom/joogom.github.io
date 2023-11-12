@@ -40,23 +40,19 @@ $(document).ready(function () {
                 start: '2023-12-02',
             },
             {
-                title: 'AGF',
+                title: 'AGF?',
                 start: '2023-12-03',
             },
             {
-                title: '빙님과 대화중_크리스마스',
+                title: '빙 크리스마스',
                 start: '2023-12-07',
             },
             {
-                title: '빙님과 대화중_크리스마스',
-                start: '2023-12-14',
+                title: '아랑_컨셉 정하기 대화',
+                start: '2023-12-15',
             },
             {
-                title: '완주님?',
-                start: '2023-12-16',
-            },
-            {
-                title: '서코?',
+                title: '서코',
                 start: '2023-12-16',
             },
             {
@@ -70,6 +66,10 @@ $(document).ready(function () {
             {
                 title: '빙님과 대화중_기모노?',
                 start: '2023-12-28',
+            },
+            {
+                title: '아랑_컨셉 미정',
+                start: '2023-12-23',
             },
             {
                 title: '니지산지 언젠지 부정확',
