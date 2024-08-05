@@ -1,0 +1,22 @@
+
+<div class="portfolio">
+  {% for post in site.posts %}
+  {% unless post.next %}
+  <p class="archive_year">{{ post.date | date: '%Y' }}년 사진</p>
+  {% else %}
+  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+  {% capture nextyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+  {% if year != nextyear %}
+  <p class="archive_year">{{ post.date | date: '%Y' }}년 사진</p>
+  {% endif %}
+  {% endunless %}
+
+  {% if post.thumbnail %}
+  <ul>
+    <li>
+      <a href='{{ post.url | relative_url }}'><img src="{{ post.thumbnail }}" alt="{{ post.title }}"></a>
+    </li>
+  </ul>
+  {% endif %}
+  {% endfor %}
+</div>
