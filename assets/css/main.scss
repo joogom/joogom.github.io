@@ -470,6 +470,10 @@ img {
 .mobile_menu {
     display: none;
 
+    br {
+        display: none;
+    }
+
     @include mobile-only {
         display: block;
         margin: -.5rem;
