@@ -35,10 +35,6 @@ Model: [트위터 씬 님(@KeAVO3cwO6uUq2Z)][씬]{:target="_blank"}
 [씬]: https://x.com/KeAVO3cwO6uUq2Z
 
 
-Model: [인스타 아나이 님(@anahischaos)][아나이]{:target="_blank"}
-[아나이]: https://www.instagram.com/anahischaos/
-
-
 Model: [트위터 아몽 님(@mongdangdang11)][아몽]{:target="_blank"}
 [아몽]: https://x.com/mongdangdang11
 
@@ -100,6 +96,31 @@ Model: [인스타 명수연 님(@_su.yeon_s2)][명수연]{:target="_blank"}
 
 Model: [트위터 빙수 님(@shaved_ice_sR)][빙수]{:target="_blank"}
 [빙수]: https://x.com/shaved_ice_sR
+
+
+Model: [인스타 아나이 님(@anahischaos)][아나이]{:target="_blank"}
+[아나이]: https://www.instagram.com/anahischaos/
+
+
+Model: [트위터 파란 님(@Pharahn_cos)][파란]{:target="_blank"}
+[파란]: https://x.com/Pharahn_cos
+
+
+Model: [트위터 스미레 님(@s_mire)][스미레]{:target="_blank"}
+[스미레]: https://x.com/s_mire
+
+
+Model: [트위터 하봄 님(@cos_habom)][하봄]{:target="_blank"}
+[하봄]: https://x.com/cos_habom
+
+
+
+
+
+
+
+
+
 
 
 .\NewPost.ps1 -NewFilePath ".\_posts\2024-01-06-아나이.md" -NewTitle "2024.01.06 아나이 (작성예정)"
