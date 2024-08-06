@@ -7,14 +7,6 @@ Model: `핑크치마` > [트위터 애월담 님(@A___warl)][애월담]{:target=
 [애월담]: https://x.com/A___warl
 
 
-Model: [인스타 명수연 님(@_su.yeon_s2)][명수연]{:target="_blank"}
-[명수연]: https://www.instagram.com/_su.yeon_s2/
-
-
-Model: [인스타 명수연 님(@_su.yeon_s2)][명수연]{:target="_blank"}
-[명수연]: https://www.instagram.com/_su.yeon_s2/
-
-
 Model: [인스타 별하 님(@primrose_key)][별하]{:target="_blank"}
 [별하]: https://www.instagram.com/primrose_key/
 
@@ -71,14 +63,43 @@ Model: [트위터 홍률푸딩 님(@honglul_cos)][홍률푸딩]{:target="_blank"
 [홍률푸딩]: https://x.com/honglul_cos
 
 
-["령라떼", "ryonglatte_cos(X)"],
-["", "(X)"],
+Model: [트위터 키루리 님(@kiruri_error)][키루리]{:target="_blank"}
+[키루리]: https://x.com/kiruri_error
 
 
+Model: 트위터 범골이 님
 
-시아시아
+
+Model: [인스타 조정 님(@takowave)][조정]{:target="_blank"}
+[조정]: https://x.com/takowave
 
 
+Model: [트위터 죠 님(@Z_dawn_C)][죠]{:target="_blank"}
+[죠]: https://x.com/Z_dawn_C
+
+
+Model: [인스타 현 님(@hyx.n__)][현]{:target="_blank"}
+[현]: https://x.com/hyx.n__
+
+
+Model: [트위터 개멍이 님(@dogman_cos)][개멍이]{:target="_blank"}
+[개멍이]: https://x.com/dogman_cos
+
+
+Model: [트위터 가빈 님(@gabin48666027)][가빈]{:target="_blank"}
+[가빈]: https://x.com/gabin48666027
+
+
+Model: [인스타 림타 님(@limtas2)][림타]{:target="_blank"}
+[림타]: https://www.instagram.com/limtas2/
+
+
+Model: [인스타 명수연 님(@_su.yeon_s2)][명수연]{:target="_blank"}
+[명수연]: https://www.instagram.com/_su.yeon_s2/
+
+
+Model: [트위터 빙수 님(@shaved_ice_sR)][빙수]{:target="_blank"}
+[빙수]: https://x.com/shaved_ice_sR
 
 
 .\NewPost.ps1 -NewFilePath ".\_posts\2024-01-06-아나이.md" -NewTitle "2024.01.06 아나이 (작성예정)"
