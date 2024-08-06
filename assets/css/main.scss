@@ -435,8 +435,6 @@ img {
 }
 
 .nav_item {
-    display: inline-block;
-    *display: inline;
     zoom: 1;
 
     & a {
@@ -450,6 +448,8 @@ img {
     }
 
     @include mobile-only {
+        display: inline-block;
+        *display: inline;
 
         &:after {
             content: '/';

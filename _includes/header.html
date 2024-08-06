@@ -13,22 +13,21 @@
     <span class="header_mes">{{ site.user.message }}</span>
 
     <nav class="nav">
-      {% if site.user.aboutme %}
       <ul class="nav_list">
+        {% if site.user.aboutme %}
         <li class="nav_item">
           <a href="{{ site.baseurl }}/aboutme.html">about</a>
         </li>
-      </ul>
-      {% endif %}
-      {% for category in site.categories %}
-      {% capture cat_name %}{{ category | first }}{% endcapture %}
-      <ul class="nav_list">
+        {% endif %}
+        {% assign sorted_cats = site.categories | sort %}
+        {% for category in sorted_cats %}
+        {% capture cat_name %}{{ category | first }}{% endcapture %}
         <li class="nav_item">
           <a href="{{ site.baseurl }}/categories/{{ cat_name }}" id="aa">{{ cat_name }}
             ({{ category | last | size }})</a>
-        </li>
+        </li> 
+        {% endfor %}
       </ul>
-      {% endfor %}
     </nav>
   </div>
 
