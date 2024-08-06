@@ -19,14 +19,25 @@
           <a href="{{ site.baseurl }}/aboutme.html">about</a>
         </li>
         {% endif %}
-        {% assign sorted_cats = site.categories | sort %}
-        {% for category in sorted_cats %}
-        {% capture cat_name %}{{ category | first }}{% endcapture %}
+        {% assign posts_2023 = site.categories['2023'] %}
+        {% assign posts_2024 = site.categories['2024'] %}
         <li class="nav_item">
-          <a href="{{ site.baseurl }}/categories/{{ cat_name }}" id="aa">{{ cat_name }}
-            ({{ category | last | size }})</a>
-        </li> 
-        {% endfor %}
+          <a href="{{ site.baseurl }}/categories/2023" id="aa">2023 ({{ posts_2023 | size }})</a>
+        </li>
+        <li class="nav_item">
+          <a href="{{ site.baseurl }}/categories/2024" id="aa">2024 ({{ posts_2024 | size }})</a>
+        </li>
+      </ul>
+      <br>
+      <ul class="nav_list">
+        {% assign posts_snap = site.categories['스냅'] %}
+        {% assign posts_cosplay = site.categories['코스프레'] %}
+        <li class="nav_item">
+          <a href="{{ site.baseurl }}/categories/스냅" id="aa">스냅 ({{ posts_snap | size }})</a>
+        </li>
+        <li class="nav_item">
+          <a href="{{ site.baseurl }}/categories/코스프레" id="aa">코스프레 ({{ cosplay | size }})</a>
+        </li>
       </ul>
     </nav>
   </div>
