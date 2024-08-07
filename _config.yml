@@ -33,9 +33,6 @@ exclude:
   - Catbook.url
   - old_posts
 
-plugins:
-  - jekyll-redirect-from
-
 defaults:
   - scope:
       path: "_posts"
