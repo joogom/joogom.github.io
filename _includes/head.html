@@ -9,31 +9,47 @@
   {% include google_analytics.html %}
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="author" content="{{ site.user.name }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}" media="all">
-  
-  <!-- data -->
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}"
-    href="{{ '/feed.xml' | relative_url }}" />
-  <meta content="{{ title }}" name="description">
-  <meta content="주곰[joogom]" name="copyright">
-  <meta content="주곰,joogom,코스프레,コスプレ,cosplay" name="keyword">
+  <meta name="author" content="{{ site.user.name }}">
+  <meta name="keywords" content="주곰,joogom,코스프레,コスプレ,cosplay,twitter">
+  <meta name="description" content="{{ title | escape }}">
 
   <!-- og -->
-  <meta content="ko_KR" property="og:locale">
-  <meta content="website" property="og:type">
-  <meta content="{{ site.title | escape }}" property="og:site_name">
-  <meta content="{{ title | escape }}" property="og:title">
-  <meta content="{{ title | escape }}" property="og:description">
-  <meta content="{{ page.url | prepend: site.url }}" property="og:url">
+  <meta property="og:title" content="{{ title | escape }}">
+  <meta property="og:description" content="{{ title | escape }}">
   {% if page.thumbnail %}
-  <meta content="{{ page.thumbnail | prepend: site.url }}" property="og:image">
-  <meta content="{{ page.thumbnail | prepend: site.url }}" property="twitter:image">
-  <meta content="summary_large_image" name="twitter:card">
+  <meta property="og:image" content="{{ page.thumbnail | prepend: site.url }}">
   {% endif %}
+  <meta property="og:url" content="{{ page.url | prepend: site.url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.title | escape }}">
+
+  <!-- twitter -->
+  <meta name="twitter:title" content="{{ title | escape }}">
+  <meta name="twitter:description" content="{{ title | escape }}">
+  {% if page.thumbnail %}
+  <meta name="twitter:image" content="{{ page.thumbnail | prepend: site.url }}">
+  <meta name="twitter:image:alt" content="{{ page.thumbnail | prepend: site.url }}">
+  {% endif %}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="{{ page.url | prepend: site.url }}">
+  <meta name="twitter:site" content="@joogom__photo">
+  <meta name="twitter:domain" content="https://joogom.github.io">
+  <meta name="robots" content="noarchive">
+  <meta name="copyright" content="Copyright ©joogom 주곰 All rights reserved.">
+
+  <!-- og -->
+  <meta property="og:title" content="{{ title | escape }}">
+  <meta property="og:description" content="{{ title | escape }}">
+  {% if page.thumbnail %}
+  <meta property="og:image" content="{{ page.thumbnail | prepend: site.url }}">
+  {% endif %}
+  <meta property="og:url" content="{{ page.url | prepend: site.url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.title | escape }}">
+
+  <!-- css -->
+  <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}" media="all">
 
   <!-- favicon -->
   <link rel="shortcut icon" href="{{ site.favicon | relative_url }}" type="image/x-icon" />
