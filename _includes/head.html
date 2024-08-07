@@ -13,9 +13,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}" media="all">
+  
+  <!-- data -->
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}"
     href="{{ '/feed.xml' | relative_url }}" />
+  <meta content="{{ title }}" name="description">
+  <meta content="주곰[joogom]" name="copyright">
+  <meta content="주곰,joogom,코스프레,コスプレ,cosplay" name="keyword">
+
+  <!-- og -->
+  <meta content="ko_KR" property="og:locale">
+  <meta content="website" property="og:type">
+  <meta content="{{ site.title | escape }}" property="og:site_name">
+  <meta content="{{ title | escape }}" property="og:title">
+  <meta content="{{ title | escape }}" property="og:description">
+  <meta content="{{ page.url | prepend: site.url }}" property="og:url">
+  {% if page.thumbnail %}
+  <meta content="{{ page.thumbnail | prepend: site.url }}" property="og:image">
+  <meta content="{{ page.thumbnail | prepend: site.url }}" property="twitter:image">
+  <meta content="summary_large_image" name="twitter:card">
+  {% endif %}
 
   <!-- favicon -->
   <link rel="shortcut icon" href="{{ site.favicon | relative_url }}" type="image/x-icon" />
