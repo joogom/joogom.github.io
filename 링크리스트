@@ -9,6 +9,8 @@ Model: [트위터 낑깡 님(@Ggingnyang)][낑깡]{:target="_blank"}
 
 
 
-.\NewPost.ps1 -NewFilePath ".\_posts\2024-01-06-아나이.md" -NewTitle "2024.01.06 아나이 (작성예정)"
+.\NewPost.ps1 -NewFilePath ".\_posts\2024-08-08-FUN-EXPO-AGF-KOREA-댱이님.md" -NewTitle "2024.08.08 FUN EXPO AGF KOREA 댱이님 (작성예정)"
 
 D:\toy\joogom-portfolio\AddImages.ps1
+
+트위터 카드 리프레쉬 사이트: https://cards-dev.twitter.com/validator
