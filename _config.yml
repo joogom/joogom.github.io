@@ -32,6 +32,7 @@ exclude:
   - github
   - Catbook.url
   - old_posts
+  - 링크리스트
 
 defaults:
   - scope:
