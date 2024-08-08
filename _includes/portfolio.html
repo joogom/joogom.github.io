@@ -14,7 +14,14 @@
   {% if post.thumbnail %}
   <ul>
     <li>
-      <a href='{{ post.url | relative_url }}'><img src="{{ post.thumbnail }}" alt="{{ post.title }}"></a>
+      <a href='{{ post.url | relative_url }}'>
+        <div class="portfolio-post-title">
+          <div class="portfolio-post-title-inner">
+            <span>{{post.title}}</span>
+          </div>
+        </div>
+        <img src="{{ post.thumbnail }}" alt="{{ post.title }}">
+      </a>
     </li>
   </ul>
   {% endif %}
