@@ -68,4 +68,41 @@
         }, false);
     }, false);
 // @license-end
+
+    // joogom custom
+    document.addEventListener('DOMContentLoaded', function () {
+        var clickableTextElements = document.querySelectorAll('.clickable-text');
+        clickableTextElements.forEach(function (element) {
+            element.addEventListener('click', function () {
+                var imgSrc = element.getAttribute('data-img-src');
+                var imgElement = document.createElement('img');
+                imgElement.src = imgSrc;
+                imgElement.style.maxWidth = '100%';
+                imgElement.style.marginTop = '10px';
+
+                if (!element.nextSibling || element.nextSibling.tagName !== 'IMG') {
+                    element.parentNode.insertBefore(imgElement, element.nextSibling);
+                }
+            });
+        });
+
+        var toggles = document.querySelectorAll('.toggle-button');
+        toggles.forEach(function (toggle) {
+            toggle.addEventListener('click', function () {
+                if (content.style.display === '' || content.style.display === 'none') {
+                    content.style.display = 'block';
+                } else {
+                    content.style.display = 'none';
+                }
+                // var content = toggle.nextElementSibling;
+
+                // if (content.style.display === 'none' || content.style.display === '') {
+                //     content.style.display = 'block';
+                // } else {
+                //     content.style.display = 'none';
+                // }
+            });
+        });
+    });
+    // ~joogom custom
 </script>
