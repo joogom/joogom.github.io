@@ -11,14 +11,51 @@ Model: [트위터 낑깡 님(@Ggingnyang)][낑깡]{:target="_blank"}
 
 .\NewPost.ps1 -NewFilePath ".\_posts\2024-08-08-FUN-EXPO-AGF-KOREA-댱이님.md" -NewTitle "2024.08.08 FUN EXPO AGF KOREA 댱이님 (작성예정)"
 .\NewModel.ps1 `
-    -NewFileName "seoulcomic231008" `
-    -dddd "2023.10.08 서코" `
-    -nickname "빙수" `
+    -NewFileName "AGF231202" `
+    -dddd "2023.12.02 AGF" `
     -sns_type "x" `
-    -sns_id "shaved_ice_sR"
+    -nickname "스미레" `
+    -sns_id "s_mire"
 
 
 
 D:\toy\joogom-portfolio\AddImages.ps1
 
 트위터 카드 리프레쉬 사이트: https://cards-dev.twitter.com/validator
+
+ffmpeg -framerate 24 -i image%d.jpg -c:v libx264 -r 24 -pix_fmt yuv420p slideshow.mp4
+
+
+
+
+
+
+
+
+
+{% capture details_content %}
+
+<span class="clickable-text" data-img-src="{{ '/assets/img/2024/08-08/DSC05865.jpg' | relative_url }}">Click here to see the image!</span>
+
+![DSC05865.jpg](/assets/img/2024/08-08/DSC05865.jpg)
+
+{% endcapture %}
+
+<details>
+  <summary>여기를 클릭하여 내용을 확인하세요</summary>
+  {{ details_content | markdownify }}
+</details>
+
+
+
+
+
+
+
+
+
+{% capture included_content %}
+{% include_relative 2023-12-16-seoko-sat.md %}
+{% endcapture %}
+
+{{ included_content | markdownify }}
