@@ -1,0 +1,19 @@
+{% assign models = page.model %}
+
+{% for model in models %}
+<hr>
+{% assign model_file = '_models/' | append: model | append: '.md' %}
+
+{% capture raw_content %}
+{% include {{ model_file }} %}
+{% endcapture %}
+
+{% assign parts = raw_content | split: '---' %}
+{% if parts.size > 1 %}
+{% assign content = parts[2] %}
+{% else %}
+{% assign content = raw_content %}
+{% endif %}
+
+{{ content | markdownify }}
+{% endfor %}
