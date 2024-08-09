@@ -10,6 +10,14 @@ Model: [트위터 낑깡 님(@Ggingnyang)][낑깡]{:target="_blank"}
 
 
 .\NewPost.ps1 -NewFilePath ".\_posts\2024-08-08-FUN-EXPO-AGF-KOREA-댱이님.md" -NewTitle "2024.08.08 FUN EXPO AGF KOREA 댱이님 (작성예정)"
+.\NewModel.ps1 `
+    -NewFileName "seoulcomic231008" `
+    -dddd "2023.10.08 서코" `
+    -nickname "빙수" `
+    -sns_type "x" `
+    -sns_id "shaved_ice_sR"
+
+
 
 D:\toy\joogom-portfolio\AddImages.ps1
 

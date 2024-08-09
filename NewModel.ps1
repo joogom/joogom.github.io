@@ -12,6 +12,7 @@ if ($sns_type -eq "x") {
     $sns_type_kr = "트위터"
 } else {
     $url = "https://www.instagram.com/$sns_id"
+    $sns_type = "insta"
     $sns_type_kr = "인스타"
 }
 
