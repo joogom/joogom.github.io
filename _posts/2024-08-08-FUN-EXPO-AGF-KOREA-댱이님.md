@@ -1,5 +1,5 @@
 ﻿---
-title: 2024.08.08 FUN EXPO AGF KOREA 댱이님
+title: 2024.08.08 FUN EXPO X AGF KOREA 댱이님
 categories: [2024, 행사, 코스프레]
 comments: false
 thumbnail: /assets/img/2024/08-08/DSC03557.jpg
@@ -75,3 +75,11 @@ Model: [트위터 댱이 님(@DyangYi)][댱이]{:target="_blank"}
 ![DSC05782.jpg](/assets/img/2024/08-08/DSC05782.jpg)
 ![DSC05863.jpg](/assets/img/2024/08-08/DSC05863.jpg)
 ![DSC05865.jpg](/assets/img/2024/08-08/DSC05865.jpg)
+
+<div class="hide" style="display:none;">
+Agf 마스코트 샤야
+　
+@DyangYi
+　
+#cosplay #2024_08_08_FUN_EXPO_X_AGF_KOREA
+</div>
