@@ -1,11 +1,15 @@
 ﻿---
-title: 2024.08.11 FUN EXPO AGF KOREA 댱이님
+title: 2024.08.11 FUN EXPO X AGF KOREA 댱이님
 categories: [2024, 행사, 코스프레]
 comments: false
 thumbnail: /assets/img/2024/08-11/댱이/DSC07703.jpg
 ---
 
 `화질이 열화 되어있습니다.`
+
+Model: [트위터 댱이 님(@DyangYi)][댱이]{:target="_blank"}
+
+[댱이]: https://x.com/DyangYi
 
 ![DSC06181.jpg](/assets/img/2024/08-11/댱이/DSC06181.jpg)
 ![DSC06271.jpg](/assets/img/2024/08-11/댱이/DSC06271.jpg)
