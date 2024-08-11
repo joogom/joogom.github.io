@@ -9,13 +9,15 @@ Model: [트위터 낑깡 님(@Ggingnyang)][낑깡]{:target="_blank"}
 
 
 
-.\NewPost.ps1 -NewFilePath ".\_posts\2024-08-08-FUN-EXPO-AGF-KOREA-댱이님.md" -NewTitle "2024.08.08 FUN EXPO AGF KOREA 댱이님 (작성예정)"
+.\NewPost.ps1 -NewFilePath ".\_posts\2024-08-11-FUN-EXPO-AGF-KOREA-댱이님.md" -NewTitle "2024.08.11 FUN EXPO AGF KOREA 댱이님"
+.\NewPost.ps1 -NewFilePath ".\_posts\2024-08-11-FUN-EXPO-AGF-KOREA-아자님.md" -NewTitle "2024.08.11 FUN EXPO AGF KOREA 아자님"
+
 .\NewModel.ps1 `
-    -NewFileName "AGF231202" `
-    -dddd "2023.12.02 AGF" `
+    -NewFileName "ludensia240330" `
+    -dddd "2024.03.30 루덴시아" `
     -sns_type "x" `
-    -nickname "스미레" `
-    -sns_id "s_mire"
+    -nickname "" `
+    -sns_id "Undefined"
 
 
 
