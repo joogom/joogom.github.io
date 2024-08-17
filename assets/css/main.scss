@@ -364,9 +364,11 @@ img {
 .header_job {
     display: block;
     margin-top: .3rem;
+    margin-bottom: .3rem;
     color: var(--job_font);
     font-size: 0.75em;
     font-weight: 700;
+    white-space: pre-line;
 }
 
 .theme_changer {   
@@ -423,7 +425,7 @@ img {
 }
 
 .nav {
-    margin-top: 1rem;
+    margin-top: .5rem;
 
     @include mobile-only {
         display: none;
@@ -482,7 +484,7 @@ img {
 
     @include mobile-only {
         display: block;
-        margin: -.5rem;
+        // margin: -.5rem;
     }
 
     @include breakpoint(medium) {

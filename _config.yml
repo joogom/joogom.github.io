@@ -23,8 +23,10 @@ user:
   name: 주곰
   pic: /assets/img/logo2.jpg
   picAlt: "로고"
-  job: 코스프레 촬영합니다.
   aboutme: true # comment this out if you don't need the 'about' page.
+  job: |
+    코스프레 촬영합니다.
+    email - joogomsnap@gmail.com
 
 exclude:
   - README.md
