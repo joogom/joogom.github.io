@@ -1,0 +1,28 @@
+---
+layout: page
+---
+
+<div class="creative_look_recipes_content">
+  <div class="nav">
+    <a href="{{ site.baseurl }}/cr/">cr</a>
+    <!-- <a href="{{ site.baseurl }}/st/">st</a> -->
+    <a href="{{ site.baseurl }}/nt/">nt</a>
+    <!-- <a href="{{ site.baseurl }}/pt/">pt</a> -->
+    <!-- <a href="{{ site.baseurl }}/vv/">vv</a> -->
+    <!-- <a href="{{ site.baseurl }}/vv2/">vv2</a> -->
+    <a href="{{ site.baseurl }}/fl/">fl</a>
+    <a href="{{ site.baseurl }}/in/">in</a>
+    <a href="{{ site.baseurl }}/sh/">sh</a>
+  </div>
+
+  {% if page.posttitle %}
+  <div>
+      <p class="post_title">{{ page.posttitle }}</p>
+      <p class="post_subtitle">{{ page.postsubtitle }}</p>
+  </div>
+
+  <hr>
+  {% endif %}
+
+  {{ content }}
+</div>
