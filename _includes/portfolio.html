@@ -1,16 +1,31 @@
 <div class="portfolio">
   <p class="title">사진을 클릭하면 더 많은 사진을 볼 수 있습니다.</p>
-  {% for post in site.posts %}
-  {% unless post.next %}
-  <p class="archive_year">{{ post.date | date: '%Y' }}년 사진</p>
-  {% else %}
-  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-  {% capture nextyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-  {% if year != nextyear %}
-  <p class="archive_year">{{ post.date | date: '%Y' }}년 사진</p>
-  {% endif %}
-  {% endunless %}
+  
+  <!-- {% assign outdoor_posts = site.posts | where: "categories", "야외" %}
+  {% assign studio_posts = site.posts | where: "categories", "스튜디오" %} -->
+  
+  {% assign all_outdoor_posts = site.posts | where: "categories", "야외" %}
+  {% assign outdoor_posts = '' | split: ',' %}
+  {% for post in all_outdoor_posts %}
+    {% unless post.categories contains "스냅" or post.title contains "작성" %}
+      {% assign outdoor_posts = outdoor_posts | push: post %}
+    {% endunless %}
+  {% endfor %}
 
+  {% assign all_studio_posts = site.posts | where: "categories", "스튜디오" %}
+  {% assign studio_posts = '' | split: ',' %}
+  {% for post in all_studio_posts %}
+    {% unless post.categories contains "스냅" or post.title contains "작성" %}
+      {% assign studio_posts = studio_posts | push: post %}
+    {% endunless %}
+  {% endfor %}
+  
+  {% assign filtered_posts = outdoor_posts | concat: studio_posts %}
+  {% assign unique_filtered_posts = filtered_posts | uniq %}
+  
+  {% assign sorted_posts = unique_filtered_posts | sort: 'date' | reverse %}
+  
+  {% for post in sorted_posts %}
   {% if post.thumbnail %}
   <ul>
     <li>
