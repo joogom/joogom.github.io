@@ -5,6 +5,7 @@ sns_type: x
 sns_id: dogman_cos
 ---
 
+<a name="dogman_cos"></a>
 Model: <a href="https://x.com/dogman_cos" target="_blank">트위터 개멍이 님(@dogman_cos)</a>
 
 ![DSC08221.jpg](/assets/img/2024/03-23/개멍이/DSC08221.jpg)

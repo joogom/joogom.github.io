@@ -5,6 +5,7 @@ sns_type: x
 sns_id: namu97_muna, Ggingnyang, kzn_cos
 ---
 
+<a name="namu97_muna+Ggingnyang+kzn_cos"></a>
 Model: <a href="https://x.com/namu97_muna" target="_blank">트위터 나무나 님(@namu97_muna)</a>  
 Model: <a href="https://x.com/Ggingnyang" target="_blank">트위터 낑깡 님(@Ggingnyang)</a>  
 Model: <a href="https://x.com/kzn_cos" target="_blank">트위터 키즈나 님(@kzn_cos)</a>

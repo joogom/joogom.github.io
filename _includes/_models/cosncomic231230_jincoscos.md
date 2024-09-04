@@ -5,6 +5,7 @@ sns_type: x
 sns_id: jincoscos
 ---
 
+<a name="jincoscos"></a>
 Model: <a href="https://x.com/jincoscos" target="_blank">트위터 진선생 님(@jincoscos)</a>
 
 ![20240101021651256.jpg](/assets/img/2023/12-30/20240101021651256.jpg)

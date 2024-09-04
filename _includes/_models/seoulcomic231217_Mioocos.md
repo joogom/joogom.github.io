@@ -5,6 +5,7 @@ sns_type: x
 sns_id: Mioocos
 ---
 
+<a name="Mioocos"></a>
 Model: <a href="https://x.com/Mioocos" target="_blank">트위터 미오 님(@Mioocos)</a>
 
 ![IMG5824.jpg](/assets/img/2023/12-17/IMG5824.jpg)

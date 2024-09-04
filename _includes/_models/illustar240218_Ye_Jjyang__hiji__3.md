@@ -5,6 +5,7 @@ sns_type: x
 sns_id: Ye_Jjyang__, hiji__3
 ---
 
+<a name="Ye_Jjyang__+hiji__3"></a>
 Model: <a href="https://x.com/Ye_Jjyang" target="_blank">트위터 예쨩 님(@Ye_Jjyang)</a>  
 Model: <a href="https://x.com/hiji__3" target="_blank">트위터 히지 님(@hiji__3)</a>
 

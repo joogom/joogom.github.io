@@ -5,6 +5,7 @@ sns_type: x
 sns_id: 1Katoma
 ---
 
+<a name="1Katoma"></a>
 Model: <a href="https://x.com/1Katoma" target="_blank">트위터 카토마 님(@1Katoma)</a>
 
 ![DSC03640.jpg](/assets/img/2024/02-17/DSC03640.jpg)

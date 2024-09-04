@@ -5,6 +5,7 @@ sns_type: x
 sns_id: redpotion01
 ---
 
+<a name="redpotion01"></a>
 Model: <a href="https://x.com/redpotion01" target="_blank">트위터 빨간물약 님(@redpotion01)</a>
 
 ![DSC03623-Bearbeitet.jpg](/assets/img/2024/02-17/DSC03623-Bearbeitet.jpg)

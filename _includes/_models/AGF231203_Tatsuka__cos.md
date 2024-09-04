@@ -5,6 +5,7 @@ sns_type: x
 sns_id: Tatsuka__cos
 ---
 
+<a name="Tatsuka__cos"></a>
 Model: <a href="https://x.com/Tatsuka__cos" target="_blank">트위터 Tatsuka 님(@Tatsuka__cos)</a>
 
 ![DSC09009.jpg](/assets/img/2023/12-03/DSC09009.jpg)

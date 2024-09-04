@@ -5,6 +5,7 @@ sns_type: x
 sns_id: jack_hospital
 ---
 
+<a name="jack_hospital"></a>
 Model: <a href="https://x.com/jack_hospital" target="_blank">트위터 잭스패로우 님(@jack_hospital)</a>
 
 ![DSC08827.jpg](/assets/img/2023/12-03/DSC08827.jpg)

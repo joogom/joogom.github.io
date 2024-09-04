@@ -5,6 +5,7 @@ sns_type: x
 sns_id: yue_coscos
 ---
 
+<a name="yue_coscos"></a>
 Model: <a href="https://x.com/yue_coscos" target="_blank">트위터 유에 님(@yue_coscos)</a>
 
 ![DSC04730셀렉.jpg](/assets/img/2024/02-18/DSC04730셀렉.jpg)

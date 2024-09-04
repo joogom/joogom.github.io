@@ -5,6 +5,7 @@ sns_type: x
 sns_id: lidangdo_0
 ---
 
+<a name="lidangdo_0"></a>
 Model: <a href="https://x.com/lidangdo_0" target="_blank">트위터 당도 님(@lidangdo_0)</a>
 
 ![DSC09800.jpg](/assets/img/2023/12-16/DSC09800.jpg)

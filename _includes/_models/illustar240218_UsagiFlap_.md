@@ -5,6 +5,7 @@ sns_type: x
 sns_id: UsagiFlap_
 ---
 
+<a name="UsagiFlap_"></a>
 Model: <a href="https://x.com/UsagiFlap_" target="_blank">트위터 빙빙수 님(@UsagiFlap_)</a>
 
 ![KakaoTalk20240317215506730.jpg](/assets/img/2024/02-18/KakaoTalk20240317215506730.jpg)

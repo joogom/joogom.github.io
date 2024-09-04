@@ -5,7 +5,9 @@ sns_type: x
 sns_id: 3sam_ca
 ---
 
+<a name="3sam_ca"></a>
 Model: <a href="https://x.com/3sam_ca" target="_blank">트위터 코애 님(@3sam_ca)</a>
+
 ![DSC09980-Bearbeitet.jpg](/assets/img/2023/12-17/DSC09980-Bearbeitet.jpg)
 ![DSC09982-Bearbeitet.jpg](/assets/img/2023/12-17/DSC09982-Bearbeitet.jpg)
 ![DSC09983-Bearbeitet.jpg](/assets/img/2023/12-17/DSC09983-Bearbeitet.jpg)

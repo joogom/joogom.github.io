@@ -5,6 +5,7 @@ sns_type: insta
 sns_id: takowave
 ---
 
+<a name="takowave"></a>
 Model: <a href="https://www.instagram.com/takowave" target="_blank">인스타 조정 님(@takowave)</a>
 
 ![DSC02951.jpeg](/assets/img/2023/10-07/DSC02951.jpeg)

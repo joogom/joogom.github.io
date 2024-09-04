@@ -5,6 +5,7 @@ sns_type: x
 sns_id: DaelaengI
 ---
 
+<a name="DaelaengI"></a>
 Model: <a href="https://x.com/DaelaengI" target="_blank">트위터 대랭이 님(@DaelaengI)</a>
 
 ![DSC04460.jpg](/assets/img/2024/02-17/DSC04460.jpg)

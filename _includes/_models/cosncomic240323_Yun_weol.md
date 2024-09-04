@@ -5,6 +5,7 @@ sns_type: x
 sns_id: Yun_weol
 ---
 
+<a name="Yun_weol"></a>
 Model: <a href="https://x.com/Yun_weol" target="_blank">트위터 윤월 님(@Yun_weol)</a>
 
 ![IMG0716.jpg](/assets/img/2024/03-23/윤월/IMG0716.jpg)

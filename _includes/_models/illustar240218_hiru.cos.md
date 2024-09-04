@@ -5,6 +5,7 @@ sns_type: insta
 sns_id: hiru.cos
 ---
 
+<a name="hiru.cos"></a>
 Model: <a href="https://www.instagram.com/hiru.cos" target="_blank">인스타 히루 님(@hiru.cos)</a>
 
 ![IMG3952.jpg](/assets/img/2024/02-18/IMG3952.jpg)

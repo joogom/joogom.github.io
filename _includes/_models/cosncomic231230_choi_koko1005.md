@@ -5,6 +5,7 @@ sns_type: x
 sns_id: choi_koko1005
 ---
 
+<a name="choi_koko1005"></a>
 Model: <a href="https://x.com/choi_koko1005" target="_blank">트위터 수 님(@choi_koko1005)</a>
 
 ![DSC01034.jpg](/assets/img/2023/12-30/DSC01034.jpg)

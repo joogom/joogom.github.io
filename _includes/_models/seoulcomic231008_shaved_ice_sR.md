@@ -5,6 +5,7 @@ sns_type: x
 sns_id: shaved_ice_sR
 ---
 
+<a name="shaved_ice_sR"></a>
 Model: <a href="https://x.com/shaved_ice_sR" target="_blank">트위터 빙수 님(@shaved_ice_sR)</a>
 
 ![DSC03655.jpeg](/assets/img/2023/10-08/DSC03655.jpeg)

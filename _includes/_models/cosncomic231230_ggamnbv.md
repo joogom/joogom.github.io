@@ -5,6 +5,7 @@ sns_type: x
 sns_id: ggamnbv
 ---
 
+<a name="ggamnbv"></a>
 Model: <a href="https://x.com/ggamnbv" target="_blank">트위터 가뭉초 님(@ggamnbv)</a>
 
 ![1.jpg](/assets/img/2023/12-30/1.jpg)

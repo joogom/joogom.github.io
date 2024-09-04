@@ -5,6 +5,7 @@ sns_type: x
 sns_id: sky_moom
 ---
 
+<a name="sky_moom"></a>
 Model: <a href="https://x.com/sky_moom" target="_blank">트위터 블루나 님(@sky_moom)</a>
 
 ![2024042820093404901.jpg](/assets/img/2024/03-30/블루나/KakaoTalk2024042820093404901.jpg)

@@ -5,6 +5,7 @@ sns_type: x
 sns_id: 011548ssh
 ---
 
+<a name="011548ssh"></a>
 Model: <a href="https://x.com/011548ssh" target="_blank">트위터 영일 님(@011548ssh)</a>
 
 ![SNOW20231224131737293.jpg](/assets/img/2023/12-17/SNOW20231224131737293.jpg)

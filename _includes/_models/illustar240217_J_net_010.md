@@ -5,6 +5,7 @@ sns_type: x
 sns_id: J_net_010
 ---
 
+<a name="J_net_010"></a>
 Model: <a href="https://x.com/J_net_010" target="_blank">트위터 제넷 님(@J_net_010)</a>
 
 ![DSC04010-Bearbeitet.jpg](/assets/img/2024/02-17/DSC04010-Bearbeitet.jpg)

@@ -5,6 +5,7 @@ sns_type: x
 sns_id: ekeoaqy87
 ---
 
+<a name="ekeoaqy87"></a>
 Model: <a href="https://x.com/ekeoaqy87" target="_blank">트위터 ekeoaqy87 님(@ekeoaqy87)</a>
 
 ![DSC09366.jpg](/assets/img/2023/12-16/DSC09366.jpg)

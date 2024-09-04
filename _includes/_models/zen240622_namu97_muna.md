@@ -5,6 +5,7 @@ sns_type: x
 sns_id: namu97_muna
 ---
 
+<a name="namu97_muna"></a>
 Model: <a href="https://x.com/namu97_muna" target="_blank">트위터 나무나 님(@namu97_muna)</a>
 
 ![DSC02666-5.jpg](/assets/img/2024/06-22/DSC02666-5.jpg)

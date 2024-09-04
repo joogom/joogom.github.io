@@ -5,6 +5,7 @@ sns_type: x
 sns_id: nox_0D
 ---
 
+<a name="nox_0D"></a>
 Model: <a href="https://x.com/nox_0D" target="_blank">트위터 녹스 님(@nox_0D)</a>
 
 ![1DSC00558-3.jpg](/assets/img/2024/06-07/녹스/1DSC00558-3.jpg)

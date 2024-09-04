@@ -5,6 +5,7 @@ sns_type: x
 sns_id: acubi_cos
 ---
 
+<a name="acubi_cos"></a>
 Model: <a href="https://x.com/acubi_cos" target="_blank">트위터 아쿠비 님(@acubi_cos)</a>
 
 ![MTXXMR20240222200558521.jpg](/assets/img/2024/02-17/MTXXMR20240222200558521.jpg)

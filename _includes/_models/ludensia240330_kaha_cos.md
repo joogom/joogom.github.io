@@ -5,6 +5,7 @@ sns_type: x
 sns_id: kaha_cos
 ---
 
+<a name="kaha_cos"></a>
 Model: <a href="https://x.com/kaha_cos" target="_blank">트위터 카하 님(@kaha_cos)</a>
 
 ![DSC08363-2.jpg](/assets/img/2024/03-30/카하/DSC08363-2.jpg)

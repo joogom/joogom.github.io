@@ -5,6 +5,7 @@ sns_type: x
 sns_id: Undefined
 ---
 
+<a name="Undefined"></a>
 Model: 트위터 비공개
 
 ![DSC10020-Bearbeitet.jpg](/assets/img/2023/12-17/DSC10020-Bearbeitet.jpg)

@@ -5,6 +5,7 @@ sns_type: x
 sns_id: Pharahn_cos
 ---
 
+<a name="Pharahn_cos"></a>
 Model: <a href="https://x.com/Pharahn_cos" target="_blank">트위터 파란 님(@Pharahn_cos)</a>
 
 ![DSC08482end.jpg](/assets/img/2023/12-02/DSC08482end.jpg)

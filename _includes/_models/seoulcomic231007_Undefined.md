@@ -5,6 +5,7 @@ sns_type: x
 sns_id: 범골이
 ---
 
+<a name="범골이"></a>
 Model: 트위터 범골이 님
 
 ![DSC02836.jpeg](/assets/img/2023/10-07/DSC02836.jpeg)

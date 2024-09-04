@@ -5,6 +5,7 @@ sns_type: insta
 sns_id: rinsegimsae
 ---
 
+<a name="rinsegimsae"></a>
 Model: <a href="https://www.instagram.com/rinsegimsae" target="_blank">인스타 김세린 님(@rinsegimsae)</a>
 
 ![KakaoTalk20231219104545327.jpeg](/assets/img/2023/12-16/KakaoTalk20231219104545327.jpeg)

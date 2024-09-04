@@ -5,6 +5,7 @@ sns_type: x
 sns_id: rkdmsxq__
 ---
 
+<a name="rkdmsxq__"></a>
 Model: <a href="https://x.com/rkdmsxq__" target="_blank">트위터 가은 님(@rkdmsxq__)</a>
 
 ![IMG7306.jpg](/assets/img/2023/12-17/IMG7306.jpg)

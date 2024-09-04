@@ -5,6 +5,7 @@ sns_type: x
 sns_id: nurunggi07
 ---
 
+<a name="nurunggi07"></a>
 Model: <a href="https://x.com/nurunggi07" target="_blank">트위터 누룽지 님(@nurunggi07)</a>
 
 ![20231218204832803.jpg](/assets/img/2023/12-17/20231218204832803.jpg)

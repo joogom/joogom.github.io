@@ -5,6 +5,7 @@ sns_type: x
 sns_id: minkerknight
 ---
 
+<a name="minkerknight"></a>
 Model: <a href="https://x.com/minkerknight" target="_blank">트위터 김레온 님(@minkerknight)</a>
 
 ![DSC07442.jpg](/assets/img/2024/03-23/김레온/DSC07442.jpg)

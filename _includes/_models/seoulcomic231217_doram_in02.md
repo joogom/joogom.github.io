@@ -5,6 +5,7 @@ sns_type: insta
 sns_id: doram_in02
 ---
 
+<a name="doram_in02"></a>
 Model: <a href="https://www.instagram.com/doram_in02" target="_blank">인스타 김민정 님(@doram_in02)</a>
 
 ![SNOW20231224202855461.jpg](/assets/img/2023/12-17/SNOW20231224202855461.jpg)

@@ -5,6 +5,7 @@ sns_type: x
 sns_id: s2_riinn
 ---
 
+<a name="s2_riinn"></a>
 Model: <a href="https://x.com/s2_riinn" target="_blank">트위터 린 님(@s2_riinn)</a>
 
 ![DSC10501-Bearbeitet.jpg](/assets/img/2023/12-17/DSC10501-Bearbeitet.jpg)

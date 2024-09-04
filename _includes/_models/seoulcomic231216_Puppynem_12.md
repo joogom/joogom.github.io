@@ -5,6 +5,7 @@ sns_type: x
 sns_id: Puppynem_12
 ---
 
+<a name="Puppynem_12"></a>
 Model: <a href="https://x.com/Puppynem_12" target="_blank">트위터 펖이 님(@Puppynem_12)</a>
 
 ![DSC09674-Bearbeitet.jpeg](/assets/img/2023/12-16/DSC09674-Bearbeitet.jpeg)

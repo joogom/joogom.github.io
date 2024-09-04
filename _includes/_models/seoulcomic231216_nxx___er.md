@@ -5,6 +5,7 @@ sns_type: x
 sns_id: nxx___er
 ---
 
+<a name="nxx___er"></a>
 Model: <a href="https://x.com/nxx___er" target="_blank">트위터 roku 님(@nxx___er)</a>
 
 ![IMG8915.jpg](/assets/img/2023/12-16/IMG8915.jpg)

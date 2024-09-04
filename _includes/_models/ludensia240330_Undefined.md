@@ -5,6 +5,7 @@ sns_type: x
 sns_id: Undefined
 ---
 
+<a name="Undefined"></a>
 Model: 장식
 
 ![DSC08287.jpg](/assets/img/2024/03-30/장식품/DSC08287.jpg)

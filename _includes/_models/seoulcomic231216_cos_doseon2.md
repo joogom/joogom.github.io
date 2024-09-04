@@ -5,6 +5,7 @@ sns_type: x
 sns_id: cos_doseon2
 ---
 
+<a name="cos_doseon2"></a>
 Model: <a href="https://x.com/cos_doseon2" target="_blank">트위터 예도선 님(@cos_doseon2)</a>
 
 ![IMG8825.jpg](/assets/img/2023/12-16/IMG8825.jpg)
