@@ -4,23 +4,60 @@
     <a href="{{ site.baseurl }}/about/">about</a>
   </li>
   {% endif %}
-  {% assign posts_2023 = site.categories['2023'] %}
+  <!-- {% assign posts_2023 = site.categories['2023'] %}
   {% assign posts_2024 = site.categories['2024'] %}
   <li class="nav_item">
     <a href="{{ site.baseurl }}/categories/2023" id="aa">2023 ({{ posts_2023 | size }})</a>
   </li>
   <li class="nav_item">
     <a href="{{ site.baseurl }}/categories/2024" id="aa">2024 ({{ posts_2024 | size }})</a>
-  </li>
+  </li> -->
 </ul>
 <br>
 <ul class="nav_list">
-  {% assign posts_snap = site.categories['스냅'] %}
   {% assign posts_cosplay = site.categories['코스프레'] %}
+  {% assign posts_cosplay_event = posts_cosplay | where: "categories", "행사" %}
+  {% assign posts_cosplay1 = posts_cosplay | where: "categories", "스튜디오" %}
+  {% assign posts_cosplay2 = posts_cosplay | where: "categories", "야외" %}
+
+  {% assign posts_snap = site.categories['스냅'] %}
+
+  {% assign posts_cosplay_event_filtered = "" | split: "" %}
+  {% assign posts_cosplay1_filtered = "" | split: "" %}
+  {% assign posts_cosplay2_filtered = "" | split: "" %}
+
+  {% for post in posts_cosplay_event %}
+    {% unless post.title contains '작성' %}
+      {% assign posts_cosplay_event_filtered = posts_cosplay_event_filtered | push: post %}
+    {% endunless %}
+  {% endfor %}
+
+  {% for post in posts_cosplay1 %}
+    {% unless post.title contains '작성' %}
+      {% assign posts_cosplay1_filtered = posts_cosplay1_filtered | push: post %}
+    {% endunless %}
+  {% endfor %}
+
+  {% for post in posts_cosplay2 %}
+    {% unless post.title contains '작성' %}
+      {% assign posts_cosplay2_filtered = posts_cosplay2_filtered | push: post %}
+    {% endunless %}
+  {% endfor %}
+
+  {% assign excluded_posts = posts_cosplay1 | concat: posts_cosplay2 | concat: posts_cosplay_event | concat: posts_snap %}
+  {% assign all_posts_size = site.posts | size %}
+  {% assign excluded_posts_size = excluded_posts | size %}
+
+  <li class="nav_item">
+    <a href="{{ site.baseurl }}/categories/코스프레스튜디오" id="aa">코스프레스튜디오 ({{ posts_cosplay1_filtered | concat: posts_cosplay2_filtered | size }})</a>
+  </li>
+  <li class="nav_item">
+    <a href="{{ site.baseurl }}/categories/코스프레행사장" id="aa">코스프레행사장 ({{ posts_cosplay_event_filtered | size }})</a>
+  </li>
   <li class="nav_item">
     <a href="{{ site.baseurl }}/categories/스냅" id="aa">스냅 ({{ posts_snap | size }})</a>
   </li>
   <li class="nav_item">
-    <a href="{{ site.baseurl }}/categories/코스프레" id="aa">코스프레 ({{ posts_cosplay | size }})</a>
+    <a href="{{ site.baseurl }}/categories/그외" id="aa">그 외 ({{ all_posts_size | minus: excluded_posts_size }})</a>
   </li>
 </ul>

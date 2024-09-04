@@ -1,0 +1,44 @@
+---
+layout: page
+---
+
+{% assign all_outdoor_posts = site.posts | where: "categories", "야외" %}
+{% assign outdoor_posts = '' | split: ',' %}
+{% for post in all_outdoor_posts %}
+  {% unless post.categories contains "스냅" or post.title contains "작성" %}
+    {% assign outdoor_posts = outdoor_posts | push: post %}
+  {% endunless %}
+{% endfor %}
+
+{% assign all_studio_posts = site.posts | where: "categories", "스튜디오" %}
+{% assign studio_posts = '' | split: ',' %}
+{% for post in all_studio_posts %}
+  {% unless post.categories contains "스냅" or post.title contains "작성" %}
+    {% assign studio_posts = studio_posts | push: post %}
+  {% endunless %}
+{% endfor %}
+
+{% assign filtered_posts = outdoor_posts | concat: studio_posts %}
+{% assign unique_filtered_posts = filtered_posts | uniq %}
+
+{% assign sorted_posts = unique_filtered_posts | sort: 'date' | reverse %}
+
+<div class="archive">
+    <p class="archive_type">코스프레, 스튜디오 ({{ sorted_posts | size }})</p>
+    <ul>
+      {% for post in sorted_posts %}
+      {% if post.url %}
+      <li>
+          <time class='archive_date' datetime='{{ post.date | date_to_xmlschema }}'>
+            {{ post.date | date: "%b %-d, %Y" }}
+          </time>
+          <div class='archive_title'>
+            <a href='{{ post.url | relative_url }}'>
+              {{ post.title | escape }}
+            </a>
+          </div>
+        </li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+</div>

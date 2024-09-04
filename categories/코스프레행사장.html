@@ -1,0 +1,35 @@
+---
+layout: page
+---
+
+{% assign all_event_posts = site.posts | where: "categories", "행사" %}
+{% assign event_posts = '' | split: ',' %}
+{% for post in all_event_posts %}
+  {% unless post.categories contains "스냅" or post.title contains "작성" %}
+    {% assign event_posts = event_posts | push: post %}
+  {% endunless %}
+{% endfor %}
+
+{% assign unique_filtered_posts = event_posts | uniq %}
+
+{% assign sorted_posts = unique_filtered_posts | sort: 'date' | reverse %}
+
+<div class="archive">
+    <p class="archive_type">코스프레, 행사 ({{ sorted_posts | size }})</p>
+    <ul>
+      {% for post in sorted_posts %}
+      {% if post.url %}
+      <li>
+          <time class='archive_date' datetime='{{ post.date | date_to_xmlschema }}'>
+            {{ post.date | date: "%b %-d, %Y" }}
+          </time>
+          <div class='archive_title'>
+            <a href='{{ post.url | relative_url }}'>
+              {{ post.title | escape }}
+            </a>
+          </div>
+        </li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+</div>

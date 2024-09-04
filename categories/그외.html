@@ -1,0 +1,39 @@
+---
+layout: page
+---
+
+<div class="archive">
+    {% assign excluded_categories = "코스프레,스냅" | split: "," %}
+    {% assign filtered_posts = "" | split: "," %}
+
+    {% for post in site.posts %}
+        {% assign include_post = true %}
+        {% for category in post.categories %}
+            {% if excluded_categories contains category %}
+                {% assign include_post = false %}
+                {% break %}
+            {% endif %}
+        {% endfor %}
+
+        {% if include_post %}
+            {% assign filtered_posts = filtered_posts | push: post %}
+        {% endif %}
+    {% endfor %}
+
+    <p class="archive_type">그 외 ({{ filtered_posts | size }})</p>
+
+    <ul>
+        {% for post in filtered_posts %}
+        <li>
+            <time class='archive_date' datetime='{{ post.date | date_to_xmlschema }}'>
+                {{ post.date | date: "%b %-d, %Y" }}
+            </time>
+            <div class='archive_title'>
+                <a href='{{ post.url | relative_url }}'>
+                    {{ post.title | escape }}
+                </a>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
