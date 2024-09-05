@@ -726,6 +726,15 @@ img {
     padding: 10px;
 }
 
+.post_content {
+    ul {
+        display: none;
+    }
+    h3#목차 {
+        display: none;
+    }
+}
+
 .creative_look_recipes_content {
     .nav {
         font-size: 2rem;
