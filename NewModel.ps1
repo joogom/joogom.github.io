@@ -28,6 +28,7 @@ sns_type: $sns_type
 sns_id: $sns_id
 ---
 
+<a name="$sns_id"></a>
 $Model
 
 ![DSC08508-Bearbeitet.jpg](/assets/img/2023/12-02/DSC08508-Bearbeitet.jpg)
