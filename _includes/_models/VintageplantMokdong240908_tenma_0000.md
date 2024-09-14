@@ -15,3 +15,5 @@ Model: <a href="https://x.com/tenma_0000" target="_blank">트위터 밀키웨이
 ![KakaoTalk2024091022030632405w.jpg](/assets/img/2024/09-08/밀키웨이/KakaoTalk2024091022030632405w.jpg)
 ![KakaoTalk20240910220306324b.jpg](/assets/img/2024/09-08/밀키웨이/KakaoTalk20240910220306324b.jpg)
 ![KakaoTalk20240910220501513w.jpg](/assets/img/2024/09-08/밀키웨이/KakaoTalk20240910220501513w.jpg)
+![DSC00991.jpg](/assets/img/2024/09-08/밀키웨이/DSC00991.jpg)
+![DSC009912.jpg](/assets/img/2024/09-08/밀키웨이/DSC009912.jpg)
