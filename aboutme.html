@@ -47,5 +47,39 @@ permalink: /about/
                 </tbody>
             </table>
         </div>
+        <div id="contents">
+            <table>
+                <colgroup>
+                    <col style="width:0%">
+                    <col>
+                </colgroup>
+                <tbody>
+                    <tr class="hide">
+                        <th></th>
+                        <td>
+{% capture details_content %}
+
+숨겨진 링크
+
+<ul class="nav_list">
+    <li class="nav_item">
+        <a href="{{ site.baseurl }}/cr/">cr</a>
+    </li>
+    <li class="nav_item">
+        <a href="{{ site.baseurl }}/meme-starwars.html">스타워즈 밈 생성기</a>
+    </li>
+</ul>
+
+{% endcapture %}
+
+<details>
+<summary>여기를 클릭하여 내용을 확인하세요</summary>
+{{ details_content | markdownify }}
+</details>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
 </section>
