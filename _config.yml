@@ -28,6 +28,11 @@ user:
     코스프레 촬영합니다.
     email - joogomsnap@gmail.com
 
+include:
+  - _cr
+  - _memo
+  - _goallist
+
 exclude:
   - README.md
   - LICENSE
@@ -43,14 +48,6 @@ defaults:
     values:
       layout: post
       comment: false
-
-collections:
-  cr:
-    output: true   # 컬렉션 파일을 사이트에 출력할 수 있도록 설정
-    permalink: /cr/:path/
-  memo:
-    output: true   # 컬렉션 파일을 사이트에 출력할 수 있도록 설정
-    permalink: /memo/:path/
 
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown 
