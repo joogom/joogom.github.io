@@ -2,11 +2,11 @@
 dddd: 2024.09.07 GXG 토
 nickname: 진아
 sns_type: x
-sns_id: Cchap_Cchap
+sns_id: Xx_xXany_
 ---
 
-<a name="Cchap_Cchap"></a>
-Model: <a href="https://x.com/Cchap_Cchap" target="_blank">트위터 진아 님(@Cchap_Cchap)</a>
+<a name="Xx_xXany_"></a>
+Model: <a href="https://x.com/Xx_xXany_" target="_blank">트위터 진아 님(@Xx_xXany_)</a>
 
 <!-- 전 아이디 Xx_xXany
 도배? 를 해서 그런건지 계정 정지 당하심 -->
