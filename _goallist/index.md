@@ -1,7 +1,7 @@
 ---
 layout: goallist
 title: 목표 리스트
-permalink: /goallist/
+permalink: /목표/
 ---
 
 <ul>
