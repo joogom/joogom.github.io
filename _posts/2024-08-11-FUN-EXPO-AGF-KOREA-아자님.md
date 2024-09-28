@@ -21,3 +21,5 @@ Model: [트위터 아자 님(@azamiyuko_cos)][아자]{:target="_blank"}
 ![DSC06087.jpg](/assets/img/2024/08-11/아자/DSC06087.jpg)
 ![DSC06100.jpg](/assets/img/2024/08-11/아자/DSC06100.jpg)
 ![DSC06127.jpg](/assets/img/2024/08-11/아자/DSC06127.jpg)
+
+<!-- 트위터에 올림 -->

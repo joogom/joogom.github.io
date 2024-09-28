@@ -83,3 +83,5 @@ Agf 마스코트 샤야
 　
 #cosplay #2024_08_08_FUN_EXPO_X_AGF_KOREA
 </div>
+
+<!-- 트위터에 올림 -->

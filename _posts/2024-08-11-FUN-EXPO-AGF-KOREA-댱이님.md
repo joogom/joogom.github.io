@@ -70,3 +70,5 @@ Model: [트위터 댱이 님(@DyangYi)][댱이]{:target="_blank"}
 ![DSC08923.jpg](/assets/img/2024/08-11/댱이/DSC08923.jpg)
 ![DSC08941.jpg](/assets/img/2024/08-11/댱이/DSC08941.jpg)
 ![DSC08951.jpg](/assets/img/2024/08-11/댱이/DSC08951.jpg)
+
+<!-- 트위터에 올림 -->
