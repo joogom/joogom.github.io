@@ -1,12 +1,12 @@
 ﻿---
 dddd: 2024.08.17 팝콘 토
 nickname: smallicecoffee
-sns_type: x
+sns_type: insta
 sns_id: smallicecoffee
 ---
 
 <a name="smallicecoffee"></a>
-Model: <a href="https://x.com/smallicecoffee" target="_blank">트위터 smallicecoffee 님(@smallicecoffee)</a>
+Model: <a href="https:/www.instagram.com/smallicecoffee" target="_blank">인스타 smallicecoffee 님(@smallicecoffee)</a>
 
 ![DSC01083.webp](/assets/img/2024/08-17/스몰커피/DSC01083.webp)
 ![DSC01084.webp](/assets/img/2024/08-17/스몰커피/DSC01084.webp)

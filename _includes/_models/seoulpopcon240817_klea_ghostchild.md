@@ -1,12 +1,12 @@
 ﻿---
 dddd: 2024.08.17 팝콘 토
 nickname: 클레아
-sns_type: x
+sns_type: insta
 sns_id: klea_ghostchild
 ---
 
 <a name="klea_ghostchild"></a>
-Model: <a href="https://x.com/klea_ghostchild" target="_blank">트위터 클레아 님(@klea_ghostchild)</a>
+Model: <a href="https://www.instagram.com/klea_ghostchild" target="_blank">인스타 클레아 님(@klea_ghostchild)</a>
 
 ![DSC01199.webp](/assets/img/2024/08-17/클레아/DSC01199.webp)
 ![DSC01200.webp](/assets/img/2024/08-17/클레아/DSC01200.webp)

@@ -1,12 +1,12 @@
 ﻿---
 dddd: 2024.08.17 팝콘 토
 nickname: _.afox._
-sns_type: x
+sns_type: isnta
 sns_id: _.afox._
 ---
 
 <a name="_.afox._"></a>
-Model: <a href="https://x.com/_.afox._" target="_blank">트위터 _.afox._ 님(@_.afox._)</a>
+Model: <a href="https://www.instagram.com/_.afox._" target="_blank">인스타 \_.afox.\_ 님(@\_.afox.\_)</a>
 
 ![DSC00766.webp](/assets/img/2024/08-17/에이폭스/DSC00766.webp)
 ![DSC00770.webp](/assets/img/2024/08-17/에이폭스/DSC00770.webp)
