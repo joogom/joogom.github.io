@@ -24,7 +24,7 @@ layout: page
 {% assign sorted_posts = unique_filtered_posts | sort: 'date' | reverse %}
 
 <div class="archive">
-    <p class="archive_type">코스프레, 스튜디오 ({{ sorted_posts | size }})</p>
+    <p class="archive_type">코스프레, 갠촬 ({{ sorted_posts | size }})</p>
     <ul>
       {% for post in sorted_posts %}
       {% if post.url %}
